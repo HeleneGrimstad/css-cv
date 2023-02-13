@@ -1,7 +1,23 @@
 body{
-    background-color: pink;
+    /* colors */
+    background-color: rgb(235, 224, 224);
+    /* typography */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;7
+    line-height: 1,35;
+    /* font shorthand that applies the same properties */
+    font: 
+    color: rgb(25, 24, 24);
 }
 
-h1 {
-    color: blue;
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+/* SELECTORS */
+/* the least specific selector */
+h1{
+    color: red;
 }
